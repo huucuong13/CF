@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title"> Link Shortener</div>
+
+            <div class="formLink">
+                <div class="enterLink">Enter a link: </div>
+                <input type="text" name="" id="link">
+                <button type="button" onclick="loadDoc()"><i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            <div class="domain">
+                <div class="ShortDomain">Short Domain: </div>
+                <button value="1" onclick="clickChangeOption(this)" id="shrtco">shrtco.de</button>
+                <button value="2" onclick="clickChangeOption(this)" id="9qr">9qr.de</button>
+                <button value="3" onclick="clickChangeOption(this)" id="shiny">shiny.link</button>
+            </div>
+
+            <div class="linkGenerated" id="linkGenerated">
+                <div class="text">Link Generated</div>
+                
+            </div>
+        </div>
+        <br>
+
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
